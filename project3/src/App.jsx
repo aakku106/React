@@ -27,6 +27,7 @@ import ToDos from "./fetchApi/ToDos";
 import ReactMemoExample from "./Optimization/ReactMemoExample";
 import { UseMemoExample } from "./Optimization/UseMemoExample";
 import UseCallbackExample from "./Optimization/UseCallbackExample";
+import LazyLoadingExample from "./Optimization/LazyLoadingExample";
 
 function App() {
   return (
@@ -68,7 +69,8 @@ function App() {
       {/* <SmartComponent /> */}
       {/* <Ecommerce /> */}
 
-      <UseCallbackExample />
+      <LazyLoadingExample />
+      {/* <UseCallbackExample /> */}
       {/* <UseMemoExample /> */}
 
       {/* <ReactMemoExample /> */}
