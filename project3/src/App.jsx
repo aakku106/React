@@ -28,6 +28,7 @@ import ReactMemoExample from "./Optimization/ReactMemoExample";
 import { UseMemoExample } from "./Optimization/UseMemoExample";
 import UseCallbackExample from "./Optimization/UseCallbackExample";
 import LazyLoadingExample from "./Optimization/LazyLoadingExample";
+import Spinner from "./Components/Spinner";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
       {/* <SmartComponent /> */}
       {/* <Ecommerce /> */}
 
+      {/* <Spinner /> */}
       <LazyLoadingExample />
       {/* <UseCallbackExample /> */}
       {/* <UseMemoExample /> */}
