@@ -1,14 +1,10 @@
-import { One, OnePointOne, OnePointTwo } from "./components/One"
+import { Two } from "./components/Two"
 
 function App() {
 
   return (
     <>
-      <One />
-      <One />
-      <One />
-      <OnePointOne />
-      < OnePointTwo />
+      <Two />
     </>
   )
 }
