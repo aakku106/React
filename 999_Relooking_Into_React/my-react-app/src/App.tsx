@@ -1,10 +1,15 @@
-import { Three } from "./components/Three"
+import { Four } from "./components/Four"
 
 function App() {
 
+  const clearInterval = () => { }
+
   return (
     <>
-      <Three />
+      <Four />
+      <button onClick={
+        () => clearInterval
+      } >StopInterval</button>
     </>
   )
 }
