@@ -1,14 +1,23 @@
+import { useState } from "react";
 import { Four } from "./components/Four"
 
-function App() {
+const App = () => {
 
-  const clearInterval = () => { }
+  let [toShow, setTOShow] = useState<boolean>(true);
+  const clearInterval = () => {
+    setTOShow((p) => !p)
+    console.log(toShow)
+  }
 
   return (
     <>
-      <Four />
+
+      {
+        toShow && <Four />
+      }
+
       <button onClick={
-        () => clearInterval
+        () => clearInterval()
       } >StopInterval</button>
     </>
   )
