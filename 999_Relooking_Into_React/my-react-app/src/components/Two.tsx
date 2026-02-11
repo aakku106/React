@@ -60,3 +60,4 @@ const TwoPointOne = ({ name }: TwoPointOneProps) => {
  * Here simpally what we did was called multiple child(TwoPointTwo) components from parent(Two) component
  * Only thing Different from normal Js is that we gace type to props
  * */
+// Next useEffect in ./Three.tsx
