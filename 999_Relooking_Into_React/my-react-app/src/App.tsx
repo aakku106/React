@@ -6,7 +6,6 @@ const App = () => {
   let [toShow, setTOShow] = useState<boolean>(true);
   const clearInterval = () => {
     setTOShow((p) => !p)
-    console.log(toShow)
   }
 
   return (
@@ -17,7 +16,12 @@ const App = () => {
 
       <button onClick={
         () => clearInterval()
-      } >StopInterval</button>
+      } >
+        {
+          toShow ? "StopInterval" : "StartInterval"
+        }
+
+      </button>
     </>
   )
 }
