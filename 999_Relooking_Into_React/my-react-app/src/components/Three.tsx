@@ -38,3 +38,5 @@ export const Three = () => {
 /*
  * The render here means when browser paints not actual react reder
  * */
+// NEXT lest look at cleanup with useEffect return
+// in ./Four.tsx
