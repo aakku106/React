@@ -18,3 +18,4 @@ export const Four = () => {
     </div>
   )
 }
+// Next we will look how to fetch and sysc data from local storage using useEffect in ./Five.tsx
